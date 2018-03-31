@@ -1,0 +1,44 @@
+doctype html
+html(lang='en')
+  head 
+    meta(charset='utf-8')
+    meta(name='viewpor')
+    title Haikyo Profile
+    link(rel='stylesheet' type='text/css' href='intro.css')
+    script(defer='', src='svg-with-js/js/fontawesome-all.min.js')
+    script( src='svg-with-js/js/solid.js')
+    script( src='svg-with-js/js/regular.js')
+    script( src='svg-with-js/js/fontawesome.js')
+
+  body
+    // Header
+    header(id='header')
+      div(class='intro')
+        h1 Hello, I'm Haikyo
+        p living & Traveling
+    // About Section
+    div(id='about')
+      div(class='section-title')
+        h2 About Me
+        hr
+      div(class='profile_pic')
+        img(src='img/me.jpg' class='img-responsive')
+        div(class='about-text')
+        p Hate  to stay in the same place, hope to live a Nomadic life with a laptop.
+
+    // Footer
+    footer(id='footer')
+      div(class='section-title')
+        h2 Contact
+        hr
+      div(class='social')
+        ul
+          li: a(href='https://www.facebook.com/exist02593') 
+            i(class='fab fa-facebook-f  fa-2x')
+          li: a(href='https://github.com/DyslexiaS') 
+            i(class='fab fa-github  fa-2x' )
+
+
+
+
+
