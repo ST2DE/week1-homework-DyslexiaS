@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -88,3 +89,40 @@ hr {
       color: #ffffff; }
     .social ul a:hover {
       color: #292F36; }
+
+#intro-text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #22333B;
+  font-weight: 500;
+  font-family: '微軟正黑體', 'FangSong', Arial, serif; }
+
+.about-title {
+  background-color: #B0D7FF;
+  height: 200px;
+  margin: 0px 100px;
+  border-radius: 5px; }
+
+.about-text {
+  text-align: center;
+  color: #22333B;
+  font-weight: 500;
+  font-family: '微軟正黑體', 'FangSong', Arial, serif; }
+
+.about-block {
+  display: inline-block;
+  margin: 10px 10px;
+  height: 90%;
+  width: 30%;
+  border-left: solid;
+  border-left-color: #FFF8E8;
+  border-right: solid;
+  border-right-color: #FFF8E8; }
+  .about-block h2 {
+    text-align: center; }
+  .about-block .about-detail {
+    text-align: left;
+    padding: 20px 30px; }
+    .about-block .about-detail li {
+      margin: 5px 0px; }
